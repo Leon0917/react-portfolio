@@ -1,0 +1,138 @@
+
+body{
+  background-image: url("../images/double-bubble-dark.png")
+}
+/* Styling the container class*/
+.container {
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 0px;
+  background-image: url("../images/double-bubble-dark.png")
+}
+
+
+/* STyling my header class elements*/
+h1 {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  color: #cccccc;
+  background-color: #4aaaa5;
+  float: left; 
+}
+
+.header {
+margin-top: 0;
+border: 1px;
+position: relative;
+}
+
+.header ol{
+  position: absolute;
+  right: 40px;
+  list-style: none;
+  }
+.header li{
+     display: inline;
+     padding: 5px 10px;
+}
+
+
+/*Style my h2 tag here*/
+h2 { 
+  color: #4aaaa5;
+  text-size-adjust: 18px;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+/* Styling my main paragraph*/
+.para {
+  width: 100%; 
+  background-image: url("../images/double-bubble-dark.png")
+}
+.para h2{
+  display: block;
+  margin:auto;
+  width:60%; 
+}
+
+hr {
+  margin:auto;
+  width:60%;  
+}
+
+
+/*Style info class here*/
+.info {
+  margin:auto;
+  width:60%;  
+  color: #777777;
+  background-color: #ffffff;
+  text-size-adjust: 20px;
+  line-height: 1.6em;
+  font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+  padding: 10px; 
+}
+
+  /*Floating my paragraph and photo*/
+  .photo {
+      width: 20%;
+      float: left;
+      margin: 20px;
+  }
+  info .p {
+      width: 80%;
+      float: right;
+  }
+
+
+  /*Stylling my footer here*/
+  footer {
+      width:100%;
+      border: 1px solid black;
+      position: fixed;
+      text-align: center;
+      border-top: 8px solid #4aaaa5; 
+      background-color: #666666;
+      padding: 20px;
+      bottom: 0px;
+      left: 0px;
+  }
+  
+  /*STYLING MY CONTACT.HTML HERE*/
+  .form-content{
+  width:60%;      
+  border:2px solid gainsboro;
+  margin:auto;
+  padding:2rem;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  }
+  .form-content input {
+      width: 100%;
+  }
+  .form-content label {
+      display: block;
+      padding: 10px;
+      color: gainsboro;
+  }
+  .contact h2 {
+      width:60%; 
+      margin:auto;
+  }
+   .submit {
+      border:0;
+      background-color:#4aaaa5;
+      padding:.5rem;
+      color:white;
+      margin: 1rem 0;
+      width: 10%;
+  }
+ 
+  /*STYLING MY PORTFOLIO.HTML HERE*/
+  .my-photos {
+      display: block;
+      margin: auto;
+      padding: 40px;
+      width: 60%;
+      border: 2px solid gray;
+  }
