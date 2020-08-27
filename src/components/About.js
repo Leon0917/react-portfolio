@@ -4,8 +4,6 @@ function About (){
     return(
         <div className="para">
         <h2> About me </h2>
-           
-        
                 <div className="info">
                     <p>
                         <img className="photo" src="/images/37630466_2547526268606983_5013979421606936576_o.jpg" width="200" height="200"/>  
@@ -19,3 +17,5 @@ function About (){
     )
 }
 export default About;
+           
+        

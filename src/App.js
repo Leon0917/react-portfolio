@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
            <About />
        </Route>
        <Route exact ="/contact">
-           <Portfolio />
+           <Contact />
        </Route>
        <Route exact ="/portfolio">
            <Portfolio />
