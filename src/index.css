@@ -1,6 +1,6 @@
 
 body{
-  background-image: url("../images/double-bubble-dark.png")
+  background-image: url("/images/double-bubble-dark.png")
 }
 /* Styling the container class*/
 .container {
@@ -8,7 +8,7 @@ body{
   margin: auto;
   overflow: hidden;
   margin-top: 0px;
-  background-image: url("../images/double-bubble-dark.png")
+  background-image: url("/images/double-bubble-dark.png")
 }
 
 
@@ -47,7 +47,7 @@ h2 {
 /* Styling my main paragraph*/
 .para {
   width: 100%; 
-  background-image: url("../images/double-bubble-dark.png")
+  background-image: url("/images/double-bubble-dark.png")
 }
 .para h2{
   display: block;
